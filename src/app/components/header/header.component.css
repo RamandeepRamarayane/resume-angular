@@ -1,0 +1,61 @@
+header {
+  background-color: black;
+  border-bottom: 2px solid white;
+}
+
+.header-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  letter-spacing: 20px;
+  cursor: pointer;
+}
+
+.brand-logo a {
+  text-decoration: none;
+  color:var(--color-sec);
+}
+
+.brand-logo a:hover {
+  color: white;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+
+}
+
+li {
+  margin: 0 5px;
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+
+.navbar a:hover {
+  font-size: 1.3rem;
+  background-color: var(--color-sec);
+  color: black;
+}
+

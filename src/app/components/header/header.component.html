@@ -1,0 +1,16 @@
+<header>
+  <div class="header-container">
+    <div class="brand-logo">
+      <a [routerLink]="['/main-profile']" routerLinkActive="router-link-active" ><h1>{{ brandName }}</h1></a>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-items">
+        <li class="nav-item"><a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></li>
+        <!-- <li class="nav-item"><a [routerLink]="['/projects']" routerLinkActive="router-link-active">Projects</a></li> -->
+        <li class="nav-item"><a [routerLink]="['/skills']" routerLinkActive="router-link-active">Skills</a></li>
+        <li class="nav-item"><a [routerLink]="['/about-me']" routerLinkActive="router-link-active">About Me</a></li>
+        <li class="nav-item"><a [routerLink]="['/contact-me']" routerLinkActive="router-link-active">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

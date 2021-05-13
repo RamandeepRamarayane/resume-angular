@@ -1,0 +1,32 @@
+
+footer {
+  border-top: 2px solid white;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+.lines {
+  color: var(--color-accent2);
+  font-size: 2rem;
+}
+
+.lines a {
+  text-decoration: none;
+  color: var(--color-accent1);
+  cursor: pointer;
+}
+
+.lines a:hover{
+  color: white;
+}
+
+
