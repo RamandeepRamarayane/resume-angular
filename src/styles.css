@@ -45,3 +45,20 @@ body {
 
 }
 
+@media screen and (max-width : 450px){
+
+  .header-container {
+    flex-direction: column;
+  }
+
+  .img-div {
+    width: 50px;
+   }
+
+   .skills-div {
+     flex-direction: column;
+   }
+
+
+}
+

@@ -11,7 +11,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  
+
 }
 
 .lines {
@@ -29,4 +29,22 @@ footer {
   color: white;
 }
 
+
+@media screen and (max-width:500px) {
+
+.lines {
+
+  font-size: 1.3rem;
+}
+
+}
+
+@media screen and (max-width:400px) {
+
+  .lines {
+
+    font-size: 1.2rem;
+  }
+
+  }
 
